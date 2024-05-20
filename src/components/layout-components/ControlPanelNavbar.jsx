@@ -54,7 +54,9 @@ const ControlPanelNavbar = () => {
                             </ul>
                         </li>
                         <li className="nav-item ms-lg-auto">
-                            <button className="btn btn-outline-light" href="#">Sign Out</button>
+                            <a href="/">
+                                <button className="btn btn-outline-light" href="#">Sign Out</button>
+                            </a>
                         </li>
                     </ul>
                 </div>

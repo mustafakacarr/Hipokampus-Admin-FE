@@ -1,9 +1,14 @@
 import ControlPanel from "../pages/ControlPanel"
+import SignIn from "../pages/SignIn"
 
 var SiteRoutes = [
     {
         path: "/",
-        component: <ControlPanel />,
+        component: <SignIn />,
+    },
+    {
+        path: "/control-panel",
+        component: <ControlPanel />
     }
 ];
 
