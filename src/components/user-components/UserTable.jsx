@@ -1,14 +1,16 @@
 import React from "react"
 import userDummyData from "../../dummy-data/userDummyData.json"
-import UserModal from "./UserModal";
+import UserAddModal from "./UserAddModal"
+import UserRemoveModal from "./UserRemoveModal"
 
 const UserTable = () => {
     return (
         <>
-            <button className="mb-2 btn btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#userModal">
-                Add New User
+            <UserAddModal />
+            <UserRemoveModal />
+            <button className="mb-2 btn btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#userAddModal">
+                + Add New User
             </button>
-            <UserModal />
             <div className="table-responsive">
                 <table className="table table-bordered table-striped">
                     <thead className="table-dark">
@@ -33,10 +35,11 @@ const UserTable = () => {
                                     <td>{item.email}</td>
                                     <td>{item.phone}</td>
                                     <td style={{ whiteSpace: "nowrap" }}>
-                                        <button className="btn btn-outline-primary me-1">
+                                        <button className="btn btn-outline-primary me-1 fw-bold">
                                             Edit
                                         </button>
-                                        <button className="btn btn-outline-danger">
+                                        <button className="btn btn-outline-danger fw-bold"
+                                            data-bs-toggle="modal" data-bs-target="#userRemoveModal">
                                             Remove
                                         </button>
                                     </td>

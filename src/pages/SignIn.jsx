@@ -4,7 +4,7 @@ const SignIn = () => {
     return (
         <div className="d-flex align-items-center min-vh-100">
             <form className="sign-in-form w-100 m-auto" action="/control-panel">
-                <h1 className="h4 mb-3 fw-normal">Hipokampus Control Panel</h1>
+                <h1 className="h3 mb-3 fw-bold">Hipokampus <br /> Control Panel</h1>
                 <div className="form-floating">
                     <input type="text" className="form-control" id="usernameInput" placeholder="Enter username" />
                     <label htmlFor="usernameInput">Username</label>
