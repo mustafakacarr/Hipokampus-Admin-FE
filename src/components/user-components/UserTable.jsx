@@ -27,7 +27,7 @@ const UserTable = () => {
                     <tbody>
                         {
                             userDummyData.map((item, index) => (
-                                <tr>
+                                <tr key={index}>
                                     <th scope="row">{index + 1}</th>
                                     <td>{item.username}</td>
                                     <td>{item.name}</td>

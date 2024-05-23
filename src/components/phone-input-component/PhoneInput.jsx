@@ -8,10 +8,10 @@ const PhoneInput = () => {
   const [isValid, setIsValid] = useState(false);
   const [errorCode, setErrorCode] = useState("");
 
-  const handleNumberChange = (status, value, countryData) => {
+  const handleNumberChange = (status, value) => {
     setPhoneNumberValue(value);
     setIsValid(status);
-    setErrorCode(countryData.errorCode);
+    setErrorCode(errorCode);
   };
 
   return (
