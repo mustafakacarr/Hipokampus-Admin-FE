@@ -2,12 +2,14 @@ import React from "react"
 import userDummyData from "../../dummy-data/userDummyData.json"
 import UserAddModal from "./UserAddModal"
 import UserRemoveModal from "./UserRemoveModal"
+import UserEditModal from "./UserEditModal";
 
 const UserTable = () => {
     return (
         <>
             <UserAddModal />
             <UserRemoveModal />
+            <UserEditModal />
             <button className="mb-2 btn btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#userAddModal">
                 + Add New User
             </button>
@@ -35,7 +37,8 @@ const UserTable = () => {
                                     <td>{item.email}</td>
                                     <td>{item.phone}</td>
                                     <td style={{ whiteSpace: "nowrap" }}>
-                                        <button className="btn btn-outline-primary me-1 fw-bold">
+                                        <button className="btn btn-outline-primary me-1 fw-bold"
+                                            data-bs-toggle="modal" data-bs-target="#userEditModal">
                                             Edit
                                         </button>
                                         <button className="btn btn-outline-danger fw-bold"
