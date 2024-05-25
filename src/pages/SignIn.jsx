@@ -13,7 +13,7 @@ const SignIn = () => {
                     <input type="password" className="form-control" id="passwordInput" placeholder="Enter password" />
                     <label htmlFor="passwordInput">Password</label>
                 </div>
-                <button className="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+                <button className="btn btn-primary w-100 py-2 fw-bold" type="submit">Sign in</button>
                 <p className="mt-5 mb-3 text-body-secondary">&copy; Hipokampus 2024</p>
             </form>
         </div>
