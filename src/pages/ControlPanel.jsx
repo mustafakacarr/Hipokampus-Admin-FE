@@ -4,7 +4,7 @@ import ControlPanelLayout from "../layouts/ControlPanelLayout";
 const ControlPanel = () => {
   return (
     <ControlPanelLayout>
-        Control Panel
+        Kontrol Paneli
     </ControlPanelLayout>
   );
 };

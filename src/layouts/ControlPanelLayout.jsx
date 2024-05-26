@@ -6,7 +6,7 @@ const ControlPanelLayout = ({ children }) => {
     return (
         <div className="mx-auto site-wrapper">
             <ControlPanelHeader />
-            <div className="container-fluid mx-auto min-vh-100 row gx-0">
+            <div className="container-fluid mx-auto min-vh-100 row gx-0" style={{marginTop: "48px"}}>
                 <div className="col-md-3 col-lg-2">
                     <ControlPanelSidebar />
                 </div>
