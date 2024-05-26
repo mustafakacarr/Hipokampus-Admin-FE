@@ -7,7 +7,7 @@ const ControlPanelNavbar = () => {
         <nav className="navbar fixed-top navbar-expand p-0 shadow" data-bs-theme="dark"
          style={{height: "48px", backgroundColor: "#1B1B1B"}}>
             <div className="container-fluid gx-0">
-                <span className="navbar-brand col-md-3 col-lg-2 me-0 p-1">
+                <span className="navbar-brand me-0 p-1">
                 <img
                     src="https://hipokampus.com.tr/images/logo-228x48.webp"
                     style={{ width: "200px", height: "36px" }}
