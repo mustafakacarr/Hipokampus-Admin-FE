@@ -11,7 +11,7 @@ const ControlPanelNavbar = () => {
         <nav className="navbar fixed-top navbar-expand p-0 shadow" data-bs-theme="dark"
             style={{ height: "48px", backgroundColor: "#1B1B1B" }}>
             <div className="container-fluid gx-0">
-                {width >= 576
+                {width >= 768
                     ? (
                         <span className="navbar-brand me-0 p-1">
                             <img

@@ -3,7 +3,7 @@ import React from "react"
 const SignIn = () => {
     return (
         <div className="d-flex align-items-center min-vh-100">
-            <form className="sign-in-form w-100 m-auto" action="/control-panel">
+            <form className="sign-in-form w-100 m-auto" action="/main-page">
                 <img className="mb-3" src="https://hipokampus.com.tr/images/ikonlar/hipokampus-kurumsal.webp"
                     alt="Hipokampus logo" width="75" height="70" />
                 <h1 className="h3 mb-3 fw-bold">Hipokampüs<br />Kontrol Paneli</h1>

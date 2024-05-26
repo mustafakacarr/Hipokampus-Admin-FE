@@ -36,6 +36,24 @@ body {
     scrollbar-width: none;
 }
 
+.sidebar-active {
+    color: #ec6108;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+.sidebar-not-active {
+    color: white;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+.sidebar-not-active:hover {
+    color: #ec6108;
+    font-weight: 450;
+    text-decoration: none;
+}
+
 .iti {
     width: 100%;
 }

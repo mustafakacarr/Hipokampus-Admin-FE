@@ -1,12 +1,14 @@
 import React from "react";
 import ControlPanelLayout from "../layouts/ControlPanelLayout";
 
-const ControlPanel = () => {
+const MainPage = () => {
   return (
     <ControlPanelLayout>
-        Kontrol Paneli
+      <span className="fs-3 fw-bold">
+        Ana Sayfa
+      </span>
     </ControlPanelLayout>
   );
 };
 
-export default ControlPanel;
+export default MainPage;

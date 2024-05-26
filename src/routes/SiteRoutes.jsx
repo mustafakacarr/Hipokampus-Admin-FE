@@ -1,4 +1,4 @@
-import ControlPanel from "../pages/ControlPanel"
+import MainPage from "../pages/MainPage"
 import SignIn from "../pages/SignIn"
 
 var SiteRoutes = [
@@ -7,8 +7,8 @@ var SiteRoutes = [
         component: <SignIn />,
     },
     {
-        path: "/control-panel",
-        component: <ControlPanel />
+        path: "/main-page",
+        component: <MainPage />
     }
 ];
 
